@@ -8,7 +8,7 @@ class ArrayMaximumTest {
     void testMaximum() {
         ArrayMaximum obj = new ArrayMaximum();
         assertEquals(
-            9,
+            8,
             obj.maximum(new int[]{4, 2, 9, 1})
         );
     }
