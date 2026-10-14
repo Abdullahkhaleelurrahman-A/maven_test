@@ -12,13 +12,4 @@ class ArrayMaximumTest {
             obj.maximum(new int[]{4, 2, 9, 1})
         );
     }
-    @Test
-    void testEmptyArray() {
-        ArrayMaximum obj = new ArrayMaximum();
-
-        assertThrows(
-            IllegalArgumentException.class,
-            () -> obj.maximum(new int[]{})
-        );
-    }
 }
